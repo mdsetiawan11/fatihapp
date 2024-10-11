@@ -24,7 +24,7 @@ export const Navbar = ({ className }: { className?: string }) => {
         className,
       )}
     >
-      <h1 className="text-4xl font-bold text-white">Fatih</h1>
+      <h1 className="text-6xl font-light text-white">Fatih</h1>
 
       <div className="hidden items-center gap-5 sm:flex">
         <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">

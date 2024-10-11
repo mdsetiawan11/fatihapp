@@ -11,12 +11,12 @@ export const Hero = () => {
   return (
     <section id="hero">
       <div className="animate-move-up flex min-h-[60vh] flex-col items-center justify-between gap-14 lg:flex-row lg:gap-0">
-        <div className="space-y-10 lg:text-left">
+        <div className="mt-40 space-y-10 lg:text-left">
           <h2 className="text-xl font-bold text-white lg:text-4xl">
             Lebih dari sekedar Aplikasi Waktu Sholat
           </h2>
           <TextGenerateEffect
-            words={`Bersama Fatih mari kita tingkatkan level ketakwaan kepada Allah`}
+            words={`Teman untuk memperbaiki diri kamu, dimulai dari Sholat!`}
           />
           <div className="relative">
             <div className="relative w-max max-w-xs">
@@ -39,11 +39,10 @@ export const Hero = () => {
           <div className="flex flex-col gap-5">
             <Link
               href="https://saweria.co/mdsetiawan11"
-              className="text-3xl font-bold text-white hover:text-yellow-500"
+              className="text-3xl font-normal text-white hover:text-yellow-500"
             >
-              Dukung kami
+              Berikan dukunganmu disini!
             </Link>
-            <TeamTooltip />
           </div>
         </div>
       </div>

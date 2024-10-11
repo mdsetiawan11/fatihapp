@@ -6,7 +6,7 @@ const people = [
   {
     id: 1,
     name: "Muhammad Dadang Setiawan",
-    designation: "Software Engineer",
+    designation: "Software Developer",
     image:
       "https://avatars.githubusercontent.com/u/55868907?s=400&u=0f10352d400718118217407c4839824dc06ad25a&v=4",
   },

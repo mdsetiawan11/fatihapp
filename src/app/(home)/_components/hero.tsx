@@ -14,6 +14,7 @@ import { Meteors } from "@/components/meteors";
 import { Title } from "./title";
 import { TextGenerateEffect } from "@/components/ui/text-generate";
 import { TeamTooltip } from "./team-tooltip";
+import { LinkPreview } from "@/shared/ui/link-preview";
 
 const CURRENT_STACK = [
   { icon: SiDotnet },
@@ -53,11 +54,13 @@ export const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-5">
-            <Link
-              href="https://saweria.co/mdsetiawan11"
-              className="group inline-block"
-            >
-              <Title text="Dukung kami" tag="p" className="text-white" />
+            <Link href="https://saweria.co/mdsetiawan11">
+              <LinkPreview
+                url="https://saweria.co/mdsetiawan11"
+                className="text-3xl font-bold text-white hover:text-yellow-500"
+              >
+                Dukung kami
+              </LinkPreview>{" "}
             </Link>
             <TeamTooltip />
           </div>

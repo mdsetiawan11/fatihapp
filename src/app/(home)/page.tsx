@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <div className="relative bg-blue-900">
         <BackgroundBeamsWithCollision>
-          <div className="mx-auto min-h-screen w-[70vw] p-5">
+          <div className="mx-auto min-h-screen w-[1280px] p-5">
             <Navbar />
             <Hero />
           </div>

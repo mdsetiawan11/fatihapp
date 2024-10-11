@@ -39,7 +39,7 @@ export const Hero = () => {
           <div className="flex flex-col gap-5">
             <Link
               href="https://saweria.co/mdsetiawan11"
-              className="text-3xl font-normal text-white hover:text-yellow-500"
+              className="text-md font-normal text-white hover:text-yellow-500 md:text-3xl"
             >
               Berikan dukunganmu disini!
             </Link>

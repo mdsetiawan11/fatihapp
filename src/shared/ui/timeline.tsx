@@ -37,12 +37,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-white font-sans dark:bg-neutral-950"
       ref={containerRef}
     >
-      <div className="mx-auto max-w-7xl px-10 py-10 md:px-0">
-        <h2 className="text-md mb-4 max-w-4xl font-bold text-black dark:text-white md:text-4xl">
+      <div className="mx-auto max-w-7xl px-4 py-10 md:px-0">
+        <h2 className="mb-4 max-w-4xl text-xl font-bold text-black dark:text-white md:text-4xl">
           Perkembangan fitur Fatih
         </h2>
         <p className="text-md max-w-sm text-neutral-700 dark:text-neutral-300 md:text-lg">
-          Kamu bisa lihat perkembangan kami
+          Kamu bisa lihat perkembangan kami disini!
         </p>
       </div>
 

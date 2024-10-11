@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 50%"],
+    offset: ["start 10%", "end 90%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="mb-4 max-w-4xl text-xl font-bold text-black dark:text-white md:text-4xl">
           Perkembangan fitur Fatih
         </h2>
-        <p className="text-md max-w-sm text-neutral-700 dark:text-neutral-300 md:text-lg">
+        <p className="text-md max-w-md text-neutral-700 dark:text-neutral-300 md:text-lg">
           Kamu bisa lihat perkembangan kami disini!
         </p>
       </div>

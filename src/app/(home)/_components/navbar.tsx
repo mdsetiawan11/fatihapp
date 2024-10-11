@@ -2,19 +2,7 @@ import { SiGithub, SiInstagram } from "react-icons/si";
 
 import { cn } from "@/shared/lib/utils";
 import { Button } from "@/components/ui/button";
-
-const SOCIALS = [
-  {
-    link: "https://www.instagram.com/md.setiawan11/",
-    label: "Instagram",
-    Icon: SiInstagram,
-  },
-  {
-    link: "https://github.com/mdsetiawan11",
-    label: "GitHub",
-    Icon: SiGithub,
-  },
-];
+import Link from "next/link";
 
 export const Navbar = ({ className }: { className?: string }) => {
   return (
@@ -24,14 +12,17 @@ export const Navbar = ({ className }: { className?: string }) => {
         className,
       )}
     >
-      <h1 className="text-6xl font-light text-white">Fatih</h1>
+      <h1 className="text-6xl font-light text-white">
+        {" "}
+        <Link href={"/"}>Fatih</Link>
+      </h1>
 
       <div className="hidden items-center gap-5 sm:flex">
         <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
           Permintaan Fitur
         </Button>
         <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
-          Privacy
+          <Link href={"/privacy"}>Privacy</Link>
         </Button>
         <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
           FAQs

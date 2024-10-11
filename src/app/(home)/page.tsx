@@ -21,7 +21,7 @@ export default function Home() {
       <div className="mx-auto mt-10 max-w-7xl">
         <CarouselFeatures />
         <Separator className="bg-blue-900" />
-        <div className="max-h-fit">
+        <div className="max-h-min">
           <FeaturesTimeline />
         </div>
         <Separator className="bg-blue-900" />

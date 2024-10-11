@@ -10,10 +10,10 @@ import { TeamTooltip } from "./team-tooltip";
 export const Hero = () => {
   return (
     <section id="hero">
-      <div className="animate-move-up flex min-h-[60vh] flex-col items-center justify-between gap-14 lg:flex-row lg:gap-0">
-        <div className="mt-40 space-y-10 lg:text-left">
+      <div className="animate-move-up flex flex-col items-center justify-between gap-14 lg:flex-row lg:gap-0">
+        <div className="mt-28 space-y-10 lg:text-left">
           <h2 className="text-xl font-bold text-white lg:text-4xl">
-            Lebih dari sekedar Aplikasi Waktu Sholat
+            Lebih dari sekedar Aplikasi Pengingat Waktu Sholat
           </h2>
           <TextGenerateEffect
             words={`Teman untuk memperbaiki diri kamu, dimulai dari Sholat!`}
@@ -41,7 +41,7 @@ export const Hero = () => {
               href="https://saweria.co/mdsetiawan11"
               className="text-md font-normal text-white hover:text-yellow-500 md:text-3xl"
             >
-              Berikan dukunganmu disini!
+              Kamu bisa dukung kami disini..
             </Link>
           </div>
         </div>

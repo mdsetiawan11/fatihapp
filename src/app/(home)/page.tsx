@@ -10,9 +10,9 @@ import { FeaturesTimeline } from "./_components/features-timeline";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <div className="relative bg-blue-900">
+      <div className="relative">
         <BackgroundBeamsWithCollision>
-          <div className="mx-auto min-h-screen w-[1280px] p-5">
+          <div className="mx-auto w-[1280px] p-5">
             <Navbar />
             <Hero />
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="h-auto overflow-hidden">
           <FeaturesTimeline />
         </div>
-        <Separator className="bg-blue-900" />
+        <Separator className="mt-10 bg-blue-900" />
 
         <div className="mt-10 flex max-w-7xl flex-col items-center gap-5">
           <div className="text-lg font-bold md:text-4xl">Tim Kami</div>

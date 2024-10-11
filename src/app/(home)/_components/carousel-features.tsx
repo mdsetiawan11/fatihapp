@@ -11,7 +11,7 @@ export function CarouselFeatures() {
   return (
     <div className="h-full w-full py-4">
       <h2 className="mx-auto max-w-7xl pl-4 font-sans text-xl font-bold text-neutral-800 dark:text-neutral-200 md:text-4xl">
-        Fitur
+        Showcase
       </h2>
       <Carousel items={cards} />
     </div>

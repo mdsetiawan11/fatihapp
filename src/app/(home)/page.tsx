@@ -6,6 +6,7 @@ import { Navbar } from "./_components/navbar";
 import { BackgroundBeamsWithCollision } from "@/shared/ui/background-beams-with-collision";
 import { TeamTooltip } from "./_components/team-tooltip";
 import { FeaturesTimeline } from "./_components/features-timeline";
+import { Reveal } from "@/components/custom/reveal";
 
 export default function Home() {
   return (
@@ -26,10 +27,15 @@ export default function Home() {
         </div>
         <Separator className="mt-10 bg-blue-900" />
 
-        <div className="mt-10 flex max-w-7xl flex-col items-center gap-5">
-          <div className="text-lg font-bold md:text-4xl">Tim Kami</div>
-          <TeamTooltip />
-        </div>
+        <Reveal
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+        >
+          <div className="mt-10 flex max-w-7xl flex-col items-center gap-5">
+            <div className="text-lg font-bold md:text-4xl">Tim Kami</div>
+            <TeamTooltip />
+          </div>
+        </Reveal>
       </div>
     </main>
   );

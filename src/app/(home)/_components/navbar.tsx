@@ -18,13 +18,16 @@ export const Navbar = ({ className }: { className?: string }) => {
       </h1>
 
       <div className="hidden items-center gap-5 sm:flex">
-        <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
+        <Button className="rounded-full bg-blue-700 text-xl hover:to-blue-800">
+          Lapor Bug
+        </Button>
+        <Button className="rounded-full bg-blue-700 text-xl hover:to-blue-800">
           Permintaan Fitur
         </Button>
-        <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
+        <Button className="rounded-full bg-blue-700 text-xl hover:to-blue-800">
           <Link href={"/privacy"}>Privacy</Link>
         </Button>
-        <Button className="rounded-2xl bg-blue-800 text-xl hover:to-blue-800">
+        <Button className="rounded-full bg-blue-700 text-xl hover:to-blue-800">
           FAQs
         </Button>
       </div>

@@ -39,7 +39,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="mx-auto max-w-7xl px-4 py-10 md:px-0">
         <h2 className="mb-4 max-w-4xl text-xl font-bold text-black dark:text-white md:text-4xl">
-          Perkembangan fitur Fatih
+          Perkembangan Fatih
         </h2>
         <p className="text-md max-w-md text-neutral-700 dark:text-neutral-300 md:text-lg">
           Kamu bisa lihat perkembangan kami disini!

@@ -13,15 +13,13 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <div className="relative">
         <BackgroundBeamsWithCollision>
-          <div className="mx-auto w-[1280px] p-5">
+          <div className="mx-auto w-[1280px]">
             <Navbar />
             <Hero />
           </div>
         </BackgroundBeamsWithCollision>
       </div>
-      <div className="mx-auto mt-10 max-w-7xl">
-        <CarouselFeatures />
-        <Separator className="bg-blue-900" />
+      <div className="mx-auto max-w-7xl">
         <div className="h-auto overflow-hidden">
           <FeaturesTimeline />
         </div>
